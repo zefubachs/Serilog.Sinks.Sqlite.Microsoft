@@ -10,13 +10,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B64595A-9393-4FCD-814C-ECF1C5867932}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{806E76D3-865C-4833-B9D6-3E509EFB73D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{19B3A3C5-13B5-4F5D-8D86-F1E5205D424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "example\ConsoleExample\ConsoleExample.csproj", "{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleExample", "example\ConsoleExample\ConsoleExample.csproj", "{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Sqlite.Microsoft.Tests", "test\Serilog.Sinks.Sqlite.Microsoft.Tests\Serilog.Sinks.Sqlite.Microsoft.Tests.csproj", "{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}"
 EndProject
