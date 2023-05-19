@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DFBE2D4-F61D-4BF5-A7BC-4DC48F5CB1E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Sqlite.Microsoft", "src\Serilog.Sinks.Sqlite.Microsoft\Serilog.Sinks.Sqlite.Microsoft.csproj", "{0AB72AFE-DF5B-4702-8070-A92BA1DC7568}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B64595A-9393-4FCD-814C-ECF1C5867932}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{806E76D3-865C-4833-B9D6-3E509EFB73D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{19B3A3C5-13B5-4F5D-8D86-F1E5205D424D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "example\ConsoleExample\ConsoleExample.csproj", "{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Sqlite.Microsoft.Tests", "test\Serilog.Sinks.Sqlite.Microsoft.Tests\Serilog.Sinks.Sqlite.Microsoft.Tests.csproj", "{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AB72AFE-DF5B-4702-8070-A92BA1DC7568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB72AFE-DF5B-4702-8070-A92BA1DC7568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB72AFE-DF5B-4702-8070-A92BA1DC7568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB72AFE-DF5B-4702-8070-A92BA1DC7568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AB72AFE-DF5B-4702-8070-A92BA1DC7568} = {0DFBE2D4-F61D-4BF5-A7BC-4DC48F5CB1E7}
+		{764B9DE0-E24F-46FF-85EA-CDC2C8C5B096} = {19B3A3C5-13B5-4F5D-8D86-F1E5205D424D}
+		{D9AB6B7E-D9DF-4C8C-85B3-768EA6191420} = {806E76D3-865C-4833-B9D6-3E509EFB73D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81EB5AF-E359-45CF-A906-8F8E07369D05}
+	EndGlobalSection
+EndGlobal
